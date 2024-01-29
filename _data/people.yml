@@ -13,7 +13,7 @@
 
 - name: Dr. Karl Walker
   university: University of Arkansas at Pine Bluff
-  image: /assets/img/Headshots/dr-karl-walker.jpg
+  image: assets/img/Headshots/dr-karl-walker.jpg
   email: walkerk@uapb.edu
 - name: Dr. Xiaoqian Jiang
   university: UTHealth
