@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 layout: people
-icon: fas fa-info-users
+icon: fas fa-users
 order: 1
 ---
 
