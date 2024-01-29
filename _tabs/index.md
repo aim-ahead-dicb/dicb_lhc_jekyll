@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
 icon: fas fa-book
-order: 5
+order: 3
 ---
 
 ## Problem Statement
