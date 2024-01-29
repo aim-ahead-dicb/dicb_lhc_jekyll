@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-icon: fas fa-book
+icon: fas fa-list
+order: 3
 
 ---
 
