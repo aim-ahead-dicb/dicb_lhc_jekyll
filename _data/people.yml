@@ -13,43 +13,43 @@
 
 - name: Dr. Karl Walker
   university: University of Arkansas at Pine Bluff
-  image: \dr-karl-walker.jpg
+  image: /assets/img/Headshots/dr-karl-walker.jpg
   email: walkerk@uapb.edu
 - name: Dr. Xiaoqian Jiang
   university: UTHealth
-  image: \Dr_Xiaoqian_Jiang.jpg
+  image: /assets/img/Headshots/Dr_Xiaoqian_Jiang.jpg
   email: xiaoqian.jiang@uth.tmc.edu
 - name: Dr. Xiuzhen Huang
   university: Cedars-Sinai Medical Center
-  image: \xiuzhen-huang.jpg
+  image: /assets/img/Headshots/xiuzhen-huang.jpg
   email: Xiuzhen.Huang@cshs.org
 - name: Dr. Vinay Raj
   university: University of Arkansas at Pine Bluff
-  image: \Dr_Vinay_Raj.jpg
+  image: /assets/img/Headshots/Dr_Vinay_Raj.jpg
   email: rajv@uapb.edu
 - name: Dr. Aslam Chowdhury
   university: University of Arkansas at Pine Bluff
-  image: \dr-aslam-chowdhury.jpg
+  image: /assets/img/Headshots/dr-aslam-chowdhury.jpg
   email: chowdhurya@uapb.edu
 - name: Dr. Ryan Urbanowicz
   university: Cedars-Sinai Medical Center
-  image: \Urbanowicz-Ryan..jpg
+  image: /assets/img/Headshots/Urbanowicz-Ryan..jpg
   email: Ryan.Urbanowicz@cshs.org
 - name: Dr. Omer Anjum
   university: University of Texas Health Science Center of Houston
-  image: \Dr_Omer-Anjum.jpg
+  image: /assets/img/Headshots/Dr_Omer-Anjum.jpg
   email: Omer.Anjum@uth.tmc.edu
 - name: Dr. Kai Zhang
   university: University of Texas Health Science Center of Houston
-  image: \Kai-Zhang.jpg
+  image: /assets/img/Headshots/Kai-Zhang.jpg
   email: Kai.Zhang.1@uth.tmc.edu
 - name: Fitia H Rakoto
   role: Website Developer
   university: University of Texas Health Science Center of Houston
-  image: \Fitia_Photo.jpg
+  image: /assets/img/Headshots/Fitia_Photo.jpg
   email: Fitia.H.Rakoto@uth.tmc.edu
 - name: Kshitij D Shah
   role: Website Developer
   university: University of Texas Health Science Center of Houston
-  image: \KshitijShah.jpg
+  image: /assets/img/Headshots/KshitijShah.jpg
   email: Kshitij.D.Shah@uth.tmc.edu
