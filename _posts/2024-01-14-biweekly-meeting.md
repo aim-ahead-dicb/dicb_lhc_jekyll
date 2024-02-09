@@ -2,7 +2,7 @@
 layout: post
 title:  "Biweekly Meeting"
 date:   2024-01-14 00:29:14 -0600
-categories: jekyll update
+categories: [Collaboration, Meeting]
 tags: [meeting]
 ---
 ## DICB Plan Summary
