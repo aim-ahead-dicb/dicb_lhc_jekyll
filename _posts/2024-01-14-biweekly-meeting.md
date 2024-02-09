@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Biweekly Meeting"
+author: fr
 date:   2024-01-14 00:29:14 -0600
 categories: [Collaboration, Meeting]
 tags: [meeting]
