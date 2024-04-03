@@ -9,9 +9,67 @@ title: Your Page Title
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
     <!-- Add Carrot2 JavaScript -->
-    <script src="path_to_carrot2.js"></script>
+    <script src="C:\Users\Kshitij\Documents\GitHub\carrot2\dcs\contexts\frontend\app\src\carrot2\routes.js"></script>
+    <!-- Add path-to-regexp library if necessary -->
+    <!-- <script src="path_to_path_to_regexp.js"></script> -->
     <!-- Reference pointing code -->
     <script>
+        // RouteSpec class to define routes and build URLs
+        class RouteSpec {
+            constructor(path) {
+                this.path = path;
+                // Define pathCompiled and match
+                this.pathCompiled = compile(path);
+                this.match = match(path);
+            }
+
+            buildUrl(params) {
+                // Implement 'compile' function or use 'pathCompiled' property
+                return this.pathCompiled(params);
+            }
+        }
+
+        // Implement 'compile' function or use 'pathCompiled' property
+        function compile(path) {
+            // Implement logic to compile the path (for example, using path-to-regexp library)
+            // For demonstration, let's assume a simple implementation that replaces route parameters with actual values
+            return function(params) {
+                return path.replace(/:(\w+)/g, (_, param) => params[param] || '');
+            };
+        }
+
+        // Implement 'match' function or use 'match' property
+        function match(path) {
+            // Implement logic to match the path (for example, using path-to-regexp library)
+            // For demonstration, let's assume a simple implementation that checks if the path matches exactly
+            return function(url) {
+                return url === path;
+            };
+        }
+
+        // Routes object defining different routes
+        const routes = {
+            about: new RouteSpec("/about"),
+            search: new RouteSpec("/search"),
+            searchStart: new RouteSpec("/search/:source?"),
+            searchResults: new RouteSpec("/search/:source/:query/:view?"),
+            workbench: new RouteSpec("/workbench")
+        };
+
+        // Function to cluster PubMed search results using Carrot2 and RouteSpec
+        function clusterPubMedResults(results) {
+            // Call Carrot2 clustering with the retrieved PubMed data
+            Carrot2.start({
+                // Configuration options
+                data: results, // Pass the PubMed search results for clustering
+                element: '#clustering-results' // ID of the container element
+            });
+
+            // Example of using RouteSpec to build a URL
+            var aboutUrl = routes.about.buildUrl({});
+            console.log("About URL:", aboutUrl);
+        }
+
         // Function to search PubMed and perform clustering
         function searchPubMed() {
             // Retrieve query from search input
@@ -41,16 +99,6 @@ title: Your Page Title
             // Replace with your implementation for processing PubMed results
             return results;
         }
-
-        // Function to cluster PubMed search results using Carrot2
-        function clusterPubMedResults(results) {
-            // Call Carrot2 clustering with the retrieved PubMed data
-            Carrot2.start({
-                // Configuration options
-                data: results, // Pass the PubMed search results for clustering
-                element: '#clustering-results' // ID of the container element
-            });
-        }
     </script>
 </head>
 <body>
@@ -79,3 +127,4 @@ title: Your Page Title
     <div id="clustering-results"></div>
 </body>
 </html>
+
