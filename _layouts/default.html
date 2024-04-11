@@ -16,6 +16,9 @@ layout: compress
 <html lang="{{ site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
 
+  <!-- Adding carrot2 CSS -->
+  <link rel="stylesheet" href="{{ 'assets/css/carrot2.css' | relative_url }}">
+
   <body>
     {% include sidebar.html lang=lang %}
 
@@ -75,8 +78,10 @@ layout: compress
     {% endif %}
 
     <!-- JavaScripts -->
-
     {% include js-selector.html %}
+
+    <!-- Adding carrot2 JavaScript -->
+    <script src="{{ 'assets/js/carrot2.js' | relative_url }}"></script>
 
     {% if page.mermaid %}
       {% include mermaid.html %}
