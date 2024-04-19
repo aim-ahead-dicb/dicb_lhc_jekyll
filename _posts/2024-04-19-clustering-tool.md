@@ -2,7 +2,7 @@
 title: Clustering Tool
 author:  [fr, ks]
 date: 2024-04-19 14:008:00 +0800
-categories: [Collaboration, tool]
+categories: [Collaboration, Tool]
 tags: [tools]
 pin: true
 stylesheets: 
